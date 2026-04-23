@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav-bar">
+          <div class="nav-bar__left">
+            <a href="#" class="logo">
+              <img src="./src/assets/icons/logo.svg" alt="Greenshop"/>
+            </a>
+          </div>
+          <ul class="nav-bar__center">
+            <li class="nav-bar__center--active"><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Plant Care</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+          <ul class="nav-bar__right">
+            <li>
+              <button type="button" aria-label="cart" class="cart-btn">
+                <img src="./src/assets/icons/cart_icon.svg" alt="cart-btn" />
+              </button>
+            </li>
+            <li>
+              <button type="button" aria-label="login" class="login-btn">Login</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__row">
+            <div class="hero__row__left">
+                <span class="hero__left__greeting">Welcome to GreenShop</span>
+                <h1 class="hero__left__name">Let’s Make a Better <span>Planet</span></h1>
+                <p class="hero__left__subtitle">We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+                <a href="#" class="hero__left__link">SHOP NOW</a>
+            </div>
+            <div class="hero__row__right">
+                <img src="./src/assets/images/banners/hero_img.svg" alt="">
+            </div>
+            <div class="slider">
+              <span class="dot"></span>
+              <span class="dot active-dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="shop-list">
+        <div class="container">
+          <div class="shop-block__row">
+            <aside class="sidebar">
+              <div class="first-past">
+                <p class="past-title">Categories</p>
+                <ul class="categories-list">
+                  <li><a href="#!">House Plants</a><span>33</span></li>
+                  <li><a href="#!">Potter Plants</a><span>12</span></li>
+                  <li><a href="#!">Seeds</a><span>21</span></li>
+                  <li><a href="#!">Small Plants</a><span>4</span></li>
+                  <li><a href="#!">Big Plants</a><span>12</span></li>
+                  <li><a href="#!">Succulents</a><span>3</span></li>
+                  <li><a href="#!">Trerrariums</a><span>17</span></li>
+                  <li><a href="#!">Gardening</a><span>11</span></li>
+                  <li><a href="#!">Accessories</a><span>18</span></li>
+                </ul>
+              </div>
+              <div class="second-past">
+                <p class="past-title">Price Range</p>
+                <div class="second-past__content">
+                  <input type="range">
+                  <p>Price: <span>34 - 180$</span></p>
+                  <button>Filter</button>
+                </div>
+              </div>
+              <div class="three-past">
+                <p class="past-title">Size</p>
+                <ul class="size-list">
+                  <li><a href="#!">Trerrariums<span></span></a></li>
+                  <li><a href="#!">Gardening<span></span></a></li>
+                  <li><a href="#!">Accessories<span></span></a></li>
+                </ul>
+              </div>
+            </aside>
+            <div class="shop-list">
+              <div class="shop-list__filter-bar">
+                <div class="filter-bar__left">
+                  <button class="filter-bar__btn filter-bar__btn--active">All Plants</button>
+                  <button class="filter-bar__btn">New Arrivals</button>
+                  <button class="filter-bar__btn">Sale</button>
+                </div>
+                <div class="filter-bar__right">Sort by: </div>
+              </div>
+              <div class="shop-list__cards">
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/carts/cart_img_01.jpg" alt="Barberton Daisy">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Barberton Daisy</p>
+                    <span class="card__info__price">$119.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_02.jpg" alt="Angel Wing Begonia">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Angel Wing Begonia</p>
+                    <span class="card__info__price">$169.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_03.jpg" alt="African Violet">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">African Violet</p>
+                    <span class="card__info__price">$199.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_04.jpg" alt="Beach Spider Lily">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Beach Spider Lily</p>
+                    <span class="card__info__price">$129.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_05.jpg" alt="Blushing Bromeliad">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Blushing Bromeliad</p>
+                    <span class="card__info__price">$139.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_06.jpg" alt="Chinese Evergreen">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Aluminum Plant</p>
+                    <span class="card__info__price">$179.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_07.jpg" alt="Barberton Daisy">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Bird's Nest Fern</p>
+                    <span class="card__info__price">$99.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_08.jpg" alt="Broadleaf Lady Palm">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Broadleaf Lady Palm</p>
+                    <span class="card__info__price">$59.00</span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__img">
+                    <img src="./src/assets/images/products/img_09.jpg" alt="Coral Bells">
+                    <div class="card__action__list">
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/shopping_01.svg" alt="">
+                      </button>
+                      <button class="card__action__btn">
+                        <img src="./src/assets/icons/heart_02.svg" alt="">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card__info">
+                    <p class="card__info__title">Chinese Evergreen</p>
+                    <span class="card__info__price">$39.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination-list">
+                <button class="pagination__item pagination__item--active">1</button>
+                <button class="pagination__item">2</button>
+                <button class="pagination__item">3</button>
+                <button class="pagination__item">4</button>
+                <button class="pagination__item">...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

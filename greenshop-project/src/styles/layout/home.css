@@ -1,0 +1,40 @@
+
+.hero__row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8de;
+    padding: 0 5px;
+    
+}
+
+.hero__row__left {
+    max-width: 570px;
+    padding-left: 25px;
+}
+
+.hero__left__greeting {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.hero__left__name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 65px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+.hero__left__name span{
+    color: var(--general-color);
+}
+
+.hero__left__subtitle {
+    font-weight: 300;
+    color: #727272;
+    margin-bottom: 60px;
+}

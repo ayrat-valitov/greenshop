@@ -1,0 +1,35 @@
+.promo {
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+
+.promo__row {
+    display: flex;
+    gap: 25px;
+}
+.promo__card {
+    display: flex;
+    align-items: start;
+    background-color:  #f8f8f8de;
+    overflow: visible;
+    padding: 10px 10px 10px 0;
+    height: 220px;
+} 
+
+
+.promo__card__text {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.card__text__title {
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card__text__subtitle {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 45px;
+}

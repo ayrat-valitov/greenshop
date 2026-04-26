@@ -110,3 +110,20 @@
     background-color: #46A358;
     color: white;
 }
+
+.promo__card__link {
+    background-color: #46A358;
+    color: white;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 10px;
+} 
+
+.offer-join-area__btn {
+    border: none;
+    background-color: #46A358;
+    color: white;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    font-weight: 600;
+}

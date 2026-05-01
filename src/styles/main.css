@@ -24,3 +24,22 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.mobile-stop {
+    display: none;
+}
+ @media (max-width: 900px) {
+    .mobile-stop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        padding: 20px;
+
+    }
+    body > *:not(.mobile-stop) {
+        display: none;
+    }
+}
